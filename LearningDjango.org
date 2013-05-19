@@ -1,0 +1,21 @@
+* Django Book
+** manage.py cmd
+   - total
+	 - shell
+   - model
+	 - dbshell
+	 - sqlall 输出sql语句，但并不执行
+	 - validate 
+	 - syncdb
+** Little Tricks
+   - 在你视图的任何位置，临时插入一个 assert False 来触发出错页。
+
+   - 注意会把request变量包进去
+	 #+BEGIN_SRC python
+	 def current_datetime(request):
+		current_date = datetime.datetime.now()
+		return render_to_response('current_datetime.html', locals())
+	 #+END_SRC
+	
+** Notes
+   -  

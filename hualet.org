@@ -1,0 +1,16 @@
+* My Yahoo! appid
+  2N_GGsDV34GK3j0N1YAgVx3t6fV0Ovoy79u93JL33EfydDcDlie04jiSHa5bqTjO208-
+
+* Django Study
+  todo : django.views.generic.DetailView
+
+
+* TODO-LIST [40%]
+** DONE mutiple word search 
+   CLOSED: [2013-05-15 三 17:40]
+** TODO 中文搜索b
+** TODO ptyhon with
+** TODO 做一个闹钟程序
+** DONE 压力测试
+   CLOSED: [2013-05-15 三 17:40]
+

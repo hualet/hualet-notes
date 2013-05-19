@@ -1,0 +1,2 @@
+* Interface就像是用来作为namespace一样的东西
+* get_object得到的是proxy

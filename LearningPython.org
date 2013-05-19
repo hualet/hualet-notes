@@ -1,0 +1,15 @@
+* 知识
+  1) 
+    #+begin_src python
+      class SlotsTest(object):
+          __slots__("variable")
+          class_variable = {}
+          
+          def __init__(self, variable):
+              self.variable = variable
+    #+end_src
+
+	 如果不加__slots__，则class_variable就为类属性，类跟对象都可以修改之，但是加了__slots__以后，class_variable对于对象来说就成为了只读属性。
+  2) 
+	 
+

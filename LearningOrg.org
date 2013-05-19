@@ -1,0 +1,27 @@
+* Manage Structure
+** List function
+   somehing list
+   + first (_C-c -_  *OR* S-left/right change the nature of plain list, such as + - * 1. 1))
+   + second
+   
+** Links
+   - file://~/Pictures/two.jpg
+   - http://
+   - ftp://
+   - [[www.baidu.com][baidu]]
+
+** Table
+   - C-c | to convert region into table, separate by spaces
+   - M-S-right to insert new column, left to delete column
+   - C-c RET to insert horisontal separator
+   - sort with C-c ^
+   - M-up/down to move row up or down
+   - S-RET to increase or just copy down
+    |            |   |      |     |    |       |                 |
+    |------------+---+------+-----+----+-------+-----------------|
+    | -rw-rw-r-- | 1 |  270 | 5月 | 11 | 23:27 | LearningOrg.org |
+    | -rw-rw-r-- | 2 | 1813 | 5月 | 11 | 11:18 | hualet.org      |
+    |            | 3 |      |     |    |       | hualet.org      |
+    |            | 4 |      |     |    |       | hualet.org      |
+    |            | 5 |      |     |    |       | hualet.org      |
+
