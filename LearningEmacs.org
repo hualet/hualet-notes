@@ -1,0 +1,34 @@
+* Buffer Edit
+  C-q 							#quote insert 											  
+
+  C-/ (undo) C-g C-/ (redo)		
+  C-S-<backspace>				# 删除行		
+  C-x i 						#在光标处插入其他文件
+  C-x C-w						#另存为
+
+  C-t							#交换字符
+  M-t							#交换单词
+  C-x C-t						#交换两行
+
+  recursive-edit				#递归编辑
+  C-M-c							#退出递归编辑,C-] top-level 也可以
+
+  M-$							#ispell-word
+  M-TAB							#ispell-complete-word 但是与切换应用程序的快捷键冲突了
+
+* Buffer Move
+  C-x = 						#查询你在buffer中的位置
+  M-a 							#前进一个sentence
+  M-e 							#后退一个sentence
+
+* Kill Ring
+  M-y							#循环kill-ring
+
+
+
+* 没有玩过的有趣的东西 
+  -fly-spell
+
+
+* 网上看见的，记录下来以后看
+  - refactor/rename variable 陈斌
