@@ -29,6 +29,10 @@
 * 没有玩过的有趣的东西 
   -fly-spell
 
-
 * 网上看见的，记录下来以后看
   - refactor/rename variable 陈斌
+
+
+* Tricks
+** 在dired模式下，跑到buffer最上面然后按下m键就能够mark所有文件
+

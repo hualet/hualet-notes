@@ -5,13 +5,15 @@
    + second
    
 ** Links
-   - file://~/Pictures/two.jpg
+   - file://~/Pictures/beauty/two.jpg （C-c C-o进入， C-c C-l编辑）
    - http://
    - ftp://
+   - [[~/Pictures/beauty/two.jpg]]
    - [[www.baidu.com][baidu]]
 
 ** Table
-   - C-c | to convert region into table, separate by spaces
+   - C-c - 在当前行下面添加一个水平线，如果带前缀，则在上面添加一行水平线 
+     C-c | 将活动区域（选中区域）转换成一个表
    - M-S-right to insert new column, left to delete column
    - C-c RET to insert horisontal separator
    - sort with C-c ^
@@ -24,4 +26,12 @@
     |            | 3 |      |     |    |       | hualet.org      |
     |            | 4 |      |     |    |       | hualet.org      |
     |            | 5 |      |     |    |       | hualet.org      |
+
+** 插入代码片段
+   - <s 然后tab一下就可以 C-c C-c 执行代码并生成结果
+
+** 时间戳
+   - 插入时间戳 C-c . <2013-07-16 二>
+     S-LEFT/RIGHT 将光标处理的时间戳改变一天
+     S-UP/DOWN 改变时间戳中光标下的项
 
