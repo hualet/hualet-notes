@@ -1,14 +1,54 @@
+* *多看看itertools这个模块*
 * 知识
   1) 
     #+begin_src python
       class SlotsTest(object):
-          __slots__("variable")
+          __slots__ = ("variable")
           class_variable = {}
           
           def __init__(self, variable):
               self.variable = variable
     #+end_src
 
+    #+RESULTS:
+
 	 如果不加__slots__，则class_variable就为类属性，类跟对象都可以修改之，但是加了__slots__以后，class_variable对于对象来说就成为了只读属性。
+
   2) 
-	 
+	 #+BEGIN_SRC python
+	 file_obj.write("%s%s" % (line, os.linesep))
+	 #+END_SRC
+	 这样显得更加规范，也会更加易于移植
+
+  3) 
+	 #+BEGIN_SRC python
+	 (1) map(when_yes_do_something, filter(lambda item : item.yes, items))
+     (2) for item in items:
+             if item.yes:
+                 when_yes_do_something
+	 #+END_SRC
+	 上面的代码显得更酷，更整洁
+
+  4) python 加密module *pycrypto*
+
+  5) 
+	 #+BEGIN_SRC python :results output
+	 from glib import markup_escape_text
+     
+     print markup_escape_text("<help>")
+	 #+END_SRC
+
+  #+RESULTS:
+  : &lt;help&gt;
+
+* 小技巧 
+  #+BEGIN_SRC python
+  def pretty(d, indent=0):
+      for key, value in d.iteritems():
+          print '\t' * indent + str(key)
+          if isinstance(value, dict):
+              pretty(value, indent+1)
+          else:
+              print '\t' * (indent+1) + str(value)
+  #+END_SRC
+  *对缺省参数只初始化一次的利用*

@@ -1,6 +1,6 @@
-* TODO-LIST [87%]
+* TODO-LIST [77%]
 ** DONE mutiple word search 
-   CLOSED: [2013-06-24 一 13:37]
+   CLOSED: [2013-07-24 三 22:31]
 ** DONE 中文搜索b
    CLOSED: [2013-06-24 一 13:38]
 ** DONE ptyhon with
@@ -14,29 +14,55 @@
 ** DONE 窗口图标
    CLOSED: [2013-06-28 五 09:25]
 ** TODO 桌面插件 时间显示 Geek-style
-   
-* grub-settings-todo [0%]
-** TODO 背景图片与颜色 自定义分辨率 
-** TODO 启动项顺序修改 
-** TODO 启动时间修改 
-* emacs-todo [28%]
+** TODO 阅读关于Polkit的相关东西
+
+* WORK-TODOs
+** grub-settings-todo [0%]
+*** TODO 背景图片与颜色 自定义分辨率 
+*** TODO 启动项顺序修改 
+*** TODO 启动时间修改 
+** deepin-system-settings [0%]
+*** TODO mycurl (individual)
+*** TODO get_cpu_info 函数简化
+	   
+* EMACS-TODOs [71%]
 ** DONE tabbar duplicate name (with uniquify)
    CLOSED: [2013-07-09 二 14:27]
-** TODO tabbar history call back
+** DONE tabbar history call back
 ** TODO git
 ** TODO python(ipython shell, pdb debug)
-** TODO gnus
+** CANCEL gnus
+   CLOSED: [2013-07-24 三 22:35]
 ** DONE yank inner (writing extension myself in paredit-extension)
    CLOSED: [2013-07-09 二 17:13]
 ** TODO package install
-* deepin-system-settings [0%]
-  - [ ] 阅读display模块， 并理解总体结构
-  - [ ] 权限
-  - [ ] 完成grub设置模块
-  - [ ] 阅读其余模块，进行维护
-	
+** TODO speedbar
+** DONE multi-term
+   multi-term
+** CANCEL dired sort [文件名长度]
+   CLOSED: [2013-07-24 三 22:54]
+** CANCEL showtip time
+   CLOSED: [2013-07-24 三 22:42]
+** DONE helm find-file and actions
+   CLOSED: [2013-07-24 三 22:41]
+** DONE region-save-file diff
+** DONE lazy-search
+   CLOSED: [2013-07-24 三 22:51]
+** DONE smiley faces in emacs(especially in irc chat)
+   CLOSED: [2013-07-25 四 08:58]
+** TODO slim
+** DONE Lock screen with zone and strlock
+   CLOSED: [2013-07-27 六 22:16]
+** DONE 搜包
+   CLOSED: [2013-07-30 二 23:16]
+** DONE wget
+   CLOSED: [2013-07-30 二 23:16]
+** DONE top-mode
+   CLOSED: [2013-07-31 三 20:48]
+* 有趣的事情
+** 公司人的习惯
+   - xiangzhai: test print "i love c and linux"
+   - houge: test print "linuxdeepin"
 
-
-* some questions to ask
-  - 怎么管理，更新？
-
+* 小知识
+** cd - 跳转到上一个工作的目录 popdir

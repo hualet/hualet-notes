@@ -1,2 +1,6 @@
 * Interface就像是用来作为namespace一样的东西
 * get_object得到的是proxy
+
+* *精髓*
+  提供一个服务(service),一个service里面可以有几个不同路径(path)来提供不同方面的服务，然后不同的path可以实现几个不同的Interface,Interface用来确定这个
+  方面的服务都提供什么样的方法。另外，服务也就是bus的名字。

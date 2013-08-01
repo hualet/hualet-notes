@@ -24,15 +24,19 @@
 * Kill Ring
   M-y							#循环kill-ring
 
+* Dired
+  - (y . 显示文件类型信息)
 
+* Term
+  - term-line-mode 能使用粘贴，不然不能使用粘贴
 
 * 没有玩过的有趣的东西 
   -fly-spell
 
-* 网上看见的，记录下来以后看
-  - refactor/rename variable 陈斌
-
+* 编程相关
+  - hs-minor-mode 是用来代码折叠的东西(hs-hide-block, hs-show-block)
 
 * Tricks
+** C-u 一次为4 两次为16 三次为64...
 ** 在dired模式下，跑到buffer最上面然后按下m键就能够mark所有文件
 
