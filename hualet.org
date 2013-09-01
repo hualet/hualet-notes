@@ -1,4 +1,23 @@
-* TODO-LIST [77%]
+* 申请的东西
+  - 有道翻译api API key：667014883 keyfrom：HualetDict
+* 有趣的事情
+** 公司人的习惯
+   - hailongqiu: test print "i love c and linux"
+   - houge: test print "linuxdeepin"
+* 小知识
+** cd - 跳转到上一个工作的目录 popdir
+
+* WORK-TODOs 
+** grub-settings-todo [0%]
+*** TODO 背景图片与颜色 自定义分辨率 
+*** TODO 启动项顺序修改 
+*** TODO 启动时间修改 
+** deepin-system-settings [50%]
+*** DONE mycurl (individual)
+	CLOSED: [2013-08-19 一 17:53]
+*** TODO get_cpu_info 函数简化
+
+* STORM-TODOs [88%]
 ** DONE mutiple word search 
    CLOSED: [2013-07-24 三 22:31]
 ** DONE 中文搜索b
@@ -14,29 +33,20 @@
 ** DONE 窗口图标
    CLOSED: [2013-06-28 五 09:25]
 ** TODO 桌面插件 时间显示 Geek-style
-** TODO 阅读关于Polkit的相关东西
-
-* WORK-TODOs
-** grub-settings-todo [0%]
-*** TODO 背景图片与颜色 自定义分辨率 
-*** TODO 启动项顺序修改 
-*** TODO 启动时间修改 
-** deepin-system-settings [0%]
-*** TODO mycurl (individual)
-*** TODO get_cpu_info 函数简化
-	   
-* EMACS-TODOs [71%]
+** DONE 阅读关于Polkit的相关东西
+   CLOSED: [2013-08-05 一 19:24]
+* EMACS-TODOs [58%]
 ** DONE tabbar duplicate name (with uniquify)
    CLOSED: [2013-07-09 二 14:27]
 ** DONE tabbar history call back
-** TODO git
+** TODO git 这个星期搞定 <<pro git>> 和 magit
 ** TODO python(ipython shell, pdb debug)
-** CANCEL gnus
-   CLOSED: [2013-07-24 三 22:35]
+** TODO gnus
 ** DONE yank inner (writing extension myself in paredit-extension)
    CLOSED: [2013-07-09 二 17:13]
 ** TODO package install
-** TODO speedbar
+** DONE speedbar sr-speedbar
+   CLOSED: [2013-08-02 五 00:00]
 ** DONE multi-term
    multi-term
 ** CANCEL dired sort [文件名长度]
@@ -59,10 +69,33 @@
    CLOSED: [2013-07-30 二 23:16]
 ** DONE top-mode
    CLOSED: [2013-07-31 三 20:48]
-* 有趣的事情
-** 公司人的习惯
-   - xiangzhai: test print "i love c and linux"
-   - houge: test print "linuxdeepin"
-
-* 小知识
-** cd - 跳转到上一个工作的目录 popdir
+** TODO defadvice toggle动作以后将不需要的buffer删掉
+** DONE 显示缩进
+   CLOSED: [2013-08-08 四 22:26]
+** TODO zencoding
+** CANCEL hualet-insert-filename改进 thingapt
+   CLOSED: [2013-08-08 四 22:26]
+** DOING 阅读tempbuf的代码
+** DONE find-file-sudo find-file-smb
+   CLOSED: [2013-08-11 日 22:07]
+** DONE jedi
+   CLOSED: [2013-08-14 三 22:55]
+** DONE direx-project find-project-root-other-window放到左边
+   CLOSED: [2013-08-14 三 22:55]
+** TODO bookmark+.el bookmark-extension.el
+** TODO w3m bookmark之类的 w3m-bookmark-add-current-url有问题
+** TODO emacs 控制音量大小
+** TODO buffer-move windmov
+** DONE gtk-look emacs版本的devhelp
+   CLOSED: [2013-08-21 三 15:02]
+** DONE w3m-open-url-chrome
+   CLOSED: [2013-08-22 四 08:54]
+** DONE rainbow mode
+   CLOSED: [2013-08-25 日 15:42]
+** TODO dired-do-compress 使用tar
+** DONE undo-tree
+   CLOSED: [2013-08-26 一 20:49]
+** TODO emms																	:multi:media:
+** TODO org-mode agenda-view org-capture 看看org-mode的菜单学习新功能			    :org:mode:
+** TODO auto-complete 字符串内补全 读源代码									    :auto:complete:
+** TODO x-popup-menu														    :elisp:

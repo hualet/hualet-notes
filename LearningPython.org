@@ -1,4 +1,10 @@
 * *多看看itertools这个模块*
+* PYTHON-TODOS
+** matplotlib 模块 科学计算与绘图
+** select 模块
+** signal 模块
+** multiprocess 模块
+
 * 知识
   1) 
     #+begin_src python
@@ -42,6 +48,7 @@
   : &lt;help&gt;
 
 * 小技巧 
+  1.
   #+BEGIN_SRC python
   def pretty(d, indent=0):
       for key, value in d.iteritems():
@@ -52,3 +59,20 @@
               print '\t' * (indent+1) + str(value)
   #+END_SRC
   *对缺省参数只初始化一次的利用*
+  
+  2. 
+  #+BEGIN_SRC  python
+  is_desktop_file_sys = property(lambda self : partial(is_desktop_file, basename=self.__sys_dir))
+  #+END_SRC
+  
+  3. 
+  #+BEGIN_SRC python  :results output :session
+  vals = ['a', 'b']
+  dic = {x + ',': x for x in vals}
+  print dic
+  #+END_SRC
+
+  #+RESULTS:
+  : 
+  : >>> {'b,': 'b', 'a,': 'a'}
+

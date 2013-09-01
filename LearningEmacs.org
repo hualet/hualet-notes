@@ -25,6 +25,8 @@
   M-y							#循环kill-ring
 
 * Dired
+  - (dired-mark-sexp . 更强大的mark命令)
+  - (t . 反选)
   - (y . 显示文件类型信息)
 
 * Term

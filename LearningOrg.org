@@ -12,7 +12,7 @@
    - file://~/Pictures/beauty/two.jpg （C-c C-o进入， C-c C-l编辑）
    - http://
    - ftp://
-   - [[~/Pictures/beauty/two.jpg]]
+   - [[~/Pictures/beauty/two.jpg]] (C-c C-x C-v org-toggle-inline-images显示/隐藏图片)
    - [[www.baidu.com][baidu]]
 
 ** Table
@@ -33,6 +33,7 @@
 
 ** 插入代码片段
    - <s 然后tab一下就可以 C-c C-c 执行代码并生成结果
+
    - 
 	 #+BEGIN_SRC python :results output :session
 	 import os
@@ -46,7 +47,10 @@
 	 : >>> ['.git', '.#LearningOrg.org', 'Notification Puzzles.org', 'WeeklyReviews.org', '.#LearningPython.org', 'LearningEmacs.org', '.#dbus.org', 'dbus.org', '.#LearningElisp.org', 'hualet.org', 'EmacsLispReferenceManual.org', 'LearningPython.org', '.#LearningEmacs.org', 'LearningElisp.org', 'LearningDjango.org', '.gitignore', 'libpeerconnection.log', 'LearningOrg.org']
 	 : ['sys', 'usr']
 
-	 
+   - org-src-fontify-block
+
+** 搜索
+   - 快捷键 C-c /
 ** 时间戳
    - 插入时间戳 C-c . <2013-07-16 二>
      S-LEFT/RIGHT 将光标处理的时间戳改变一天

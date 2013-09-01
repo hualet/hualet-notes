@@ -1,1 +1,39 @@
-(default-directory) 当前buffer的当前目录
+* Comment-Uncomment
+  - (comment-forward &optional N) 向前或者向后N行直到没有注释为止
+* Buffer and File
+  - default-directory 当前buffer的当前目录
+  - font-lock-add-keywords
+  - (insert-file-content) 插入文件的内容到buffer
+* Process
+  start-process 启动进程  call-process 异步同步进程
+* Interactive [[http://ergoemacs.org/emacs_manual/elisp/Prefix-Command-Arguments.html][xah lisp]]
+  - current-prefix-arg
+* Minibuffer
+  - (read-string) 从minibuffer读取字符串
+  - (read-key) 从minibuffer读取键盘值
+* Kill-ring
+  - (kill-new) 将string插入kill-ring最后
+  - (kill-ring-save) 将region插入kill-ring最后
+* File and Dir
+** file path
+   - (file-name-directory)
+   - (file-name-nondirectory)
+   - (file-name-extension)      ; get suffix
+   - (file-name-sans-extension) ; remove suffix
+   - (file-relative-name)      ; get relative path
+   - (expand-file-name)        ; get full path
+   - default-directory       ; get the current dir (this is a variable)
+** file dire manipulate
+   - (file-exists-p FILENAME)
+   - (rename-file FILE NEWNAME &optional OK-IF-ALREADY-EXISTS)
+   - (copy-file FILE NEWNAME &optional OK-IF-ALREADY-EXISTS KEEP-TIME PRESERVE-UID-GID)
+   - (delete-file FILE)
+   - (set-file-modes FILE MODE)
+   - (directory-files DIR &optional FULL MATCH NOSORT)
+   - (find-lisp-find-files "~/web/emacs/" "\\.html$") ;找到目录下符合特定pattern的文件list
+   - (make-directory DIR &optional PARENTS)
+   - (delete-directory DIRECTORY &optional RECURSIVE) ; RECURSIVE option new in emacs 23.2
+   - (copy-directory DIR NEWNAME &optional KEEP-TIME PARENTS) ; new in emacs 23.2
+   - (or load-file-name buffer-file-name) ;How to find the current elisp script's name programmatically?
+
+
