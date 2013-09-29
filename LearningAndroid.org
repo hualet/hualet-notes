@@ -1,0 +1,2 @@
+* 资源文件
+** values目录下面还可以有一个叫做_bools.xml_的文件，里面存放类似 _<bool name="is_bool">false</bool>_这样的东西

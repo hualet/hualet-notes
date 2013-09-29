@@ -12,6 +12,8 @@
 *** TODO 背景图片与颜色 自定义分辨率 
 *** TODO 启动项顺序修改 
 *** TODO 启动时间修改 
+*** TODO 完成grub设置
+	 SCHEDULED: <2013-09-02 一>
 ** deepin-system-settings [50%]
 *** DONE mycurl (individual)
 	CLOSED: [2013-08-19 一 17:53]
@@ -35,7 +37,7 @@
 ** TODO 桌面插件 时间显示 Geek-style
 ** DONE 阅读关于Polkit的相关东西
    CLOSED: [2013-08-05 一 19:24]
-* EMACS-TODOs [58%]
+* EMACS-TODOs [55%]
 ** DONE tabbar duplicate name (with uniquify)
    CLOSED: [2013-07-09 二 14:27]
 ** DONE tabbar history call back
@@ -99,3 +101,13 @@
 ** TODO org-mode agenda-view org-capture 看看org-mode的菜单学习新功能			    :org:mode:
 ** TODO auto-complete 字符串内补全 读源代码									    :auto:complete:
 ** TODO x-popup-menu														    :elisp:
+** TODO bcycle 过滤性循环buffer													:cycle:
+** TODO evil-mode 为了方便同其他同事交流
+* CuteLove
+** 加入换肤功能 apk zip style三种方式。
+   #+BEGIN_SRC java
+   //资源文件的名字和机构都保持一致, AndroidManifest.xml 中ShareUserId配置为一样的。
+   public static Resources getSkinResources(String skinName) {
+       return createPackageContext(skinName, Context.CONTEXT_IGNORE_SECURITY)
+   }
+   #+END_SRC

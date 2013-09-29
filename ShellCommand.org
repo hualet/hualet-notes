@@ -1,0 +1,4 @@
+| Command | Example           | Description               |
+|---------+-------------------+---------------------------|
+| dig     | dig www.baidu.com | 找到一个网站的详细dns信息 |
+
